@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitMQ.Producer", "RabitMQ.Producer\RabitMQ.Producer.csproj", "{DC8484F9-1DA5-4A42-B8D2-C4214EB539B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitMQConsumer", "RabitMQConsumer\RabitMQConsumer.csproj", "{CF3412DA-8009-44D9-B1E5-B81C9292CADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC8484F9-1DA5-4A42-B8D2-C4214EB539B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8484F9-1DA5-4A42-B8D2-C4214EB539B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8484F9-1DA5-4A42-B8D2-C4214EB539B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8484F9-1DA5-4A42-B8D2-C4214EB539B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3412DA-8009-44D9-B1E5-B81C9292CADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3412DA-8009-44D9-B1E5-B81C9292CADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3412DA-8009-44D9-B1E5-B81C9292CADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3412DA-8009-44D9-B1E5-B81C9292CADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55FA8E31-3DDF-49BB-85D1-9D38ABE271E9}
+	EndGlobalSection
+EndGlobal
